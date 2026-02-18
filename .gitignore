@@ -1,0 +1,33 @@
+# Node dependencies
+node_modules/
+
+# Hardhat build artifacts
+artifacts/
+cache/
+
+# Environment variables (keys, RPC URLs)
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+coverage.json
+
+# Temporary files
+*.tmp
+*.swp
+
+# IDE / Editor configs
+.vscode/
+.idea/
+
+# Hardhat ignition local files
+ignition/deployments/
